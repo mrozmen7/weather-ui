@@ -82,3 +82,10 @@
     display: block;
     font-size: 16px;
 }
+
+.weather-container {
+    /* eski background yerine bunu bırak: */
+    transition: background-color 0.6s ease;
+    padding: 30px;
+    border-radius: 16px;
+}
