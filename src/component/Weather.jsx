@@ -17,7 +17,7 @@ function Weather() {
 
     // Sayfa ilk yüklendiğinde otomatik olarak "London" verisi getirilsin:
     useEffect(() => {
-        fetchWeather('London');
+        fetchWeather('Zurich');
     }, []);
 
     // API'den hava durumu verisi çek
