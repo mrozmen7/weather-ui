@@ -13,10 +13,7 @@ import humidity_icon from '../assets/humidity.png';
 
 function Weather() {
     const [city, setCity] = useState(''); // inputa yazılan şehir
-    const [weatherData, setWeatherData] = useState(null); // API'den gelen veriler 
-
-    console.log("API URL:", import.meta.env.VITE_API_URL);
-
+    const [weatherData, setWeatherData] = useState(null); // API'den gelen veriler
 
     // Sayfa ilk yüklendiğinde otomatik olarak "London" verisi getirilsin:
     useEffect(() => {
