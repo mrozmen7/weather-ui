@@ -23,7 +23,7 @@ function Weather() {
     // API'den hava durumu verisi çek
     const fetchWeather = async (cityName) => {
         try {
-            const response = await axios.get(`http://localhost:8080/v1/api/weather/${cityName}`);
+            const response = await axios.get(`https://weather-spring-backend.onrender.com/v1/api/weather/${cityName}`);
             setWeatherData(response.data);
             console.log(response.data);
         } catch (error) {
